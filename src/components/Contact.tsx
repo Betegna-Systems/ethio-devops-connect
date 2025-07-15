@@ -3,7 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const Contact = () => {
   return (
-    <section className="py-20 bg-gradient-hero">
+    <section id="contact" className="py-20 bg-gradient-hero">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <Card className="bg-card/10 backdrop-blur-sm border-primary/20">
