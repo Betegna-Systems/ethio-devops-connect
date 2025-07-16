@@ -24,15 +24,12 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center">
             <img 
               src={ethioDevOpsLogo} 
               alt="EthioDevOps Logo" 
-              className="w-10 h-10"
+              className="w-16 h-16"
             />
-            <span className="text-xl font-bold text-foreground">
-              EthioDevOps
-            </span>
           </div>
 
           {/* Desktop Navigation */}
