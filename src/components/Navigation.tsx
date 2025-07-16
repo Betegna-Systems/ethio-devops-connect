@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import ethioDevOpsLogo from "@/assets/ethiodevops-logo.png";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,10 +24,12 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">E</span>
-            </div>
+          <div className="flex items-center space-x-3">
+            <img 
+              src={ethioDevOpsLogo} 
+              alt="EthioDevOps Logo" 
+              className="w-10 h-10"
+            />
             <span className="text-xl font-bold text-foreground">
               EthioDevOps
             </span>
